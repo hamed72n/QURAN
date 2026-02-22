@@ -1,0 +1,62 @@
+export const surahNames = [
+    "الفاتحة", "البقرة", "آل عمران", "النساء", "المائدة", "الأنعام", "الأعراف", "الأنفال", "التوبة", "يونس",
+    "هود", "يوسف", "الرعد", "إبراهيم", "الحجر", "النحل", "الإسراء", "الكهف", "مريم", "طه",
+    "الأنبياء", "الحج", "المؤمنون", "النور", "الفرقان", "الشعراء", "النمل", "القصص", "العنكبوت", "الروم",
+    "لقمان", "السجدة", "الأحزاب", "سبأ", "فاطر", "يس", "الصافات", "ص", "الزمر", "غافر",
+    "فصلت", "الشورى", "الزخرف", "الدخان", "الجاثية", "الأحقاف", "محمد", "الفتح", "الحجرات", "ق",
+    "الذاريات", "الطور", "النجم", "القمر", "الرحمن", "الواقعة", "الحديد", "المجادلة", "الحشر", "الممتحنة",
+    "الصف", "الجمعة", "المنافقون", "التغابن", "الطلاق", "التحريم", "الملك", "القلم", "الحاقة", "المعارج",
+    "نوح", "الجن", "المزمل", "المدثر", "القيامة", "الإنسان", "المرسلات", "النبأ", "النازعات", "عبس",
+    "التكوير", "الانفطار", "المطففين", "الانشقاق", "البروج", "الطارق", "الأعلى", "الغاشية", "الفجر", "البلد",
+    "الشمس", "الليل", "الضحى", "الشرح", "التين", "العلق", "القدر", "البينة", "الزلزلة", "العاديات",
+    "القارعة", "التكاثر", "العصر", "الهمزة", "الفيل", "قريش", "الماعون", "الكوثر", "الكافرون", "النصر",
+    "المسد", "الإخلاص", "الفلق", "الناس"
+];
+
+export const surahAyahCounts = [
+    7, 286, 200, 176, 120, 165, 206, 75, 129, 109,
+    123, 111, 43, 52, 99, 128, 111, 110, 98, 135,
+    112, 78, 118, 64, 77, 227, 93, 88, 69, 60,
+    34, 30, 73, 54, 45, 83, 182, 88, 75, 85,
+    54, 53, 89, 59, 37, 35, 38, 29, 18, 45,
+    60, 49, 62, 55, 78, 96, 29, 22, 24, 13,
+    14, 11, 11, 18, 12, 12, 30, 52, 52, 44,
+    28, 28, 20, 56, 40, 31, 50, 40, 46, 42,
+    29, 19, 36, 25, 22, 17, 19, 26, 30, 20,
+    15, 21, 11, 8, 8, 19, 5, 8, 8, 11,
+    11, 8, 3, 9, 5, 4, 7, 3, 6, 3,
+    5, 4, 5, 6
+];
+
+export const juzRanges = [
+    { startSurah: 1, startAyah: 1, endSurah: 2, endAyah: 141 },
+    { startSurah: 2, startAyah: 142, endSurah: 2, endAyah: 252 },
+    { startSurah: 2, startAyah: 253, endSurah: 3, endAyah: 92 },
+    { startSurah: 3, startAyah: 93, endSurah: 4, endAyah: 23 },
+    { startSurah: 4, startAyah: 24, endSurah: 4, endAyah: 147 },
+    { startSurah: 4, startAyah: 148, endSurah: 5, endAyah: 81 },
+    { startSurah: 5, startAyah: 82, endSurah: 6, endAyah: 110 },
+    { startSurah: 6, startAyah: 111, endSurah: 7, endAyah: 87 },
+    { startSurah: 7, startAyah: 88, endSurah: 8, endAyah: 40 },
+    { startSurah: 8, startAyah: 41, endSurah: 9, endAyah: 92 },
+    { startSurah: 9, startAyah: 93, endSurah: 11, endAyah: 5 },
+    { startSurah: 11, startAyah: 6, endSurah: 12, endAyah: 52 },
+    { startSurah: 12, startAyah: 53, endSurah: 14, endAyah: 52 },
+    { startSurah: 15, startAyah: 1, endSurah: 16, endAyah: 128 },
+    { startSurah: 17, startAyah: 1, endSurah: 18, endAyah: 74 },
+    { startSurah: 18, startAyah: 75, endSurah: 20, endAyah: 135 },
+    { startSurah: 21, startAyah: 1, endSurah: 22, endAyah: 78 },
+    { startSurah: 23, startAyah: 1, endSurah: 25, endAyah: 20 },
+    { startSurah: 25, startAyah: 21, endSurah: 27, endAyah: 55 },
+    { startSurah: 27, startAyah: 56, endSurah: 29, endAyah: 45 },
+    { startSurah: 29, startAyah: 46, endSurah: 33, endAyah: 30 },
+    { startSurah: 33, startAyah: 31, endSurah: 36, endAyah: 27 },
+    { startSurah: 36, startAyah: 28, endSurah: 39, endAyah: 31 },
+    { startSurah: 39, startAyah: 32, endSurah: 41, endAyah: 46 },
+    { startSurah: 41, startAyah: 47, endSurah: 45, endAyah: 37 },
+    { startSurah: 46, startAyah: 1, endSurah: 51, endAyah: 30 },
+    { startSurah: 51, startAyah: 31, endSurah: 57, endAyah: 29 },
+    { startSurah: 58, startAyah: 1, endSurah: 66, endAyah: 12 },
+    { startSurah: 67, startAyah: 1, endSurah: 77, endAyah: 50 },
+    { startSurah: 78, startAyah: 1, endSurah: 114, endAyah: 6 }
+];
